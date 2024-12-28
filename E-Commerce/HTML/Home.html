@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="StyleSheet" href="../css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dispaly">
+        <nav id="navbar"></nav>
+        <div id="filters">
+            <div class="filter-button-container">
+                <button onclick="HighToLow()" class="filter-button">High-Low</button>
+                <button onclick="LowToHigh()" class="filter-button">Low-High</button>               
+            </div>
+            <input id="filterinputValue" type="text" placeholder="Category you whant" oninput="filterFunction()">
+        </div>
+        <section>
+            <div id="carousel"></div>
+        </section>
+        <section id="productslist"></section>
+        <footer id="footer"></footer>
+    </div>
+</body>
+</html>
+<script type="module" src="../JS/Home.js"></script>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <div class="div">
+            <div>
+            <h2 class="h2">Login</h2>
+            </div>
+            <br>
+           <div>
+            <form id="RegisterForm">
+              <input type="text" name="email" placeholder="e-mail" id="email">
+              <br><br>
+              <input type="password" name="password" placeholder="password" id="password" required>
+              <br><br>
+              <input type="password" name="checkPassword" placeholder="Re-Enter password" id="checkPassword" required>
+              <br><br>
+              <input type="text" name="username" placeholder="UserName" id="username" required>
+              <br><br>
+              <input type="text" name="Address" placeholder="Adress" value="Hyderabad Telangana" id="Address">
+              <br><br>
+              <input type="number" name="mobileno" placeholder="phone number" id="mobileno" required>
+              <br><br>
+              <br><br>
+              <button type="submit" onclick="openHomePage()">Submit</button>
+              <br><br>
+            </form>
+            <div id="result"></div>
+            <span>have an account?
+            <a href="../Login.html" class="form_auth_link">Login</a></span>
+            </div>
+    </div>
+</center>
+</body>
+</html>
+<script type="module" src="../JS/sign-up.js"></script>

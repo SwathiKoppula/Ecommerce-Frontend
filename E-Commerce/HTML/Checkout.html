@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="../Css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div class="div">
+              <div>
+                <h2 class="h2">Credit Details</h2>
+              </div>
+                <br>
+              <div>
+                <form action="">
+                  <input type="number" name="accountNo" placeholder="Enter Account Number">
+                  <br><br>
+                  <div id="order-input-container">
+                  <input type="text" name="expDate" placeholder="00/00" class="order-input">
+                  <input type="number" name="cvv" placeholder="* * *" class="order-input">
+                  </div>
+                  <br>
+                  <input type="text" name="cardHolderName" placeholder="Account Holder Name">
+                  <br><br>
+                  <a id="order-hyper-tag"><button type="submit" onclick="getdata()">PAY</button></a>
+                  <br><br>
+                </form>
+              </div>
+        </div>
+    </center>
+</body>
+</html>
+<script type="module" src="../JS/Checkout.js"></script>
